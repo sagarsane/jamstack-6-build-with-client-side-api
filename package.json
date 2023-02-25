@@ -1,0 +1,19 @@
+{
+  "name": "build-with-api-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vibe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3"
+  }
+}
